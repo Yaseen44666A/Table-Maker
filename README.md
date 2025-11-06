@@ -1,0 +1,28 @@
+#YasinRafia
+ <!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>YasinRafia</title>
+  <style>
+  div{
+  font-size: 20px;
+  font-weight: 900;
+  color: red;
+  border: 2px solid black;
+}
+  </style>
+</head> 
+<body>
+  <div id="YasinRafia"></div>
+  <h3>  
+  </h3>
+  <script>
+  let YasinRafia =prompt("Enter Your Number: ");
+document.write(`<div>The Table Of ${YasinRafia} Is:</div>`);
+for(i=1;i<11;i++){
+    document.write(`<h3>${YasinRafia} × ${i} = ${YasinRafia*i} </h3>`);
+}
+  </script>
+</body>
+</html>
